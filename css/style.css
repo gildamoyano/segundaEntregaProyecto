@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #f4a261, #f1c0e8);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 1em;
+  font-family: 'Oswald';
+}
+
+h2 {
+  font-size: 35px;
+  color: white;
+  padding-left: 1em;
+  font-weight: 600;
+  font-family: 'Oswald';
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 2em;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding-bottom: 1em;
+  font-family: 'Oswald';
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  background-color: #6C757D;
+  height: 20vh;
+  font-size: 14px;
+  margin-bottom: 0em;
+}
+
+
+.img-fluid {
+  max-width: 400px;
+   padding: 2em;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.logo {
+  padding-left: 14em;
+}
+
+.bikinis {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 14em;
+  margin-top: 2em;
+}
+
+.talles {
+  margin-bottom: 8em;
+}
+
+form {
+  justify-content: center;
+  justify-items: center;
+  font-size: 14px;
+  max-width: 20em;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  gap: 1em;
+  text-align: center;
+  border-radius: 10px; }
+
+.form__button {
+  width: 6em;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 2em; }
+
+@media screen and (max-width: 576px) {
+  form {
+    font-size: 12px; } }
+
+.pie-página {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Hind';
+}
+
+.copy {
+  margin-top: 1em;
+}
+
+.contacto {
+  margin-top: 1em;
+}
+
+.redes .insta:hover,
+.redes .face:hover,
+.redes .whats:hover {
+  transform: scale(1.2);
+}
+
+.cotizador {
+  margin-bottom: 4em;
+}
+
+.input-group {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    font-size: 10px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .pie-página {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.texto {
+  padding: 2em;
+  padding-left: 15em;
+  padding-right: 13em;
+  font-family: 'Hind';
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenido .texto {
+  padding: 2em;
+  padding-left: 15em;
+  padding-right: 13em;
+}
+
+.contenido .embed-responsive-item {
+  margin-bottom: 10em;
+  margin-top: 4em;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .texto {
+    font-size: 10px;
+  }
+}
+
+.galería {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+  margin-left: 4em;
+  margin-bottom: 4rem;
+}
+
+.galería .estampa1:hover,
+.galería .estampa2:hover,
+.galería .estampa3:hover,
+.galería .estampa4:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  .galería {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 1em;
+    margin-left: 1em;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  h4 {
+    font-size: 16px;
+  }
+}
